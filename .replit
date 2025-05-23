@@ -1,0 +1,6 @@
+run = "gcc -o main main.c"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "gcc -o main main.c"]
